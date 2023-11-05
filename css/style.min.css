@@ -31,11 +31,11 @@ table {
 }
 @font-face {
     font-family: "Montserrat-Regular";
-    src: url("/fonts/src/Montserrat-Regular.woff2"), url("/fonts/src/Montserrat-Regular.ttf");
+    src: url("../fonts/src/Montserrat-Regular.woff2"), url("/fonts/src/Montserrat-Regular.ttf");
 }
 @font-face {
     font-family: "Montserrat-Bold";
-    src: url("/fonts/src/Montserrat-Bold.woff2"), url("/fonts/src/Montserrat-Bold.ttf");
+    src: url("../fonts/src/Montserrat-Bold.woff2"), url("/fonts/src/Montserrat-Bold.ttf");
 }
 @font-face {
     font-family: "Montserrat-SemiBold";
