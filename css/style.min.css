@@ -1352,21 +1352,20 @@ a {
 .service {
     position: relative;
     width: 280px;
-    padding-left: 68px;
     height: 85px;
+    padding-left: 68px;
+    padding-right: 50px;
     border: 1px solid #f9f9f9;
+    font-family: Montserrat-SemiBold;
     border-radius: 8px;
     background: #f9f9f9;
     outline: none;
     font-size: 15px;
     line-height: 160%;
     margin-bottom: 13px;
-    background-image: url(../img/down-arrow.png);
     background-size: 10%;
     background-repeat: no-repeat;
-    background-position: 99% 50%}
-input[list=service]::-webkit-calendar-picker-indicator {
-    display: none !important;
+    background-position: 99% 50%
 }
 .modal-active {
     opacity: 1;
