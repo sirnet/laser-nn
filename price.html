@@ -93,15 +93,13 @@
     <section class="advantages procedure element-animation">
         <div class="container">
             <div class="advantages-img">
-                <img class="legs-img" src="img/image 13.webp" alt="Ноги после лазерной эпиляции">
+                <img class="legs-img" src="img/image 13.png" alt="Ноги после лазерной эпиляции">
             </div>
             <div class="advantages-content procedure-content">
                 <p class="procedure-subtitle">новое оборудование</p>
                 <h2 class="procedure-title machine-title">Аппарат ADSS FG2000B</h2>
                 <p class="machine-desc">Уникальный лазер аппарата ADSS FG2000B позволяет эффективно удалять нежелательную растительность на любых участках тела надолго</p>
             </div>
-            <img class="advantages-img__stylus5" width="104px" height="150px" src="img/Stylus4.webp" alt="">
-            <img class="advantages-img__stylus3" width="128px" height="100px" src="img/Stylus3.webp" alt="">
             <img class="performance-img__point3" width="80px" height="70px" src="img/point-1.webp" alt="">
         </div>
     </section>
@@ -258,7 +256,16 @@
             </ul>
             <form class="form1" id="feedback-form" action="formStart" method="post">
                 <label class="form-submit" for="">
-                    <input class="phone" type="number" id="inputField" name="name" required placeholder="Номер телефона +7">
+                    <input class="service" type="text" list="service" name="my-service" id="my-service" placeholder="Выбрать услугу">
+                    <datalist id="service">
+                        <option value="Ноги">
+                        <option value="Руки">
+                        <option value="Лицо">
+                        <option value="Тело">
+                        <option value="Шея">
+                        <option value="Стопы">
+                      </datalist>
+                    <input class="phone" type="tel" id="inputField" name="phone" pattern="^[0-9-+\s()]{6,16}" required placeholder="Номер телефона +7">
                     <input class="submit" type="submit" value="Сделать заказ">
                 </label>
                 <label class="form-check">
