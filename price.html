@@ -236,7 +236,7 @@
             <p class="form-desc">Мы перезвоним в течении 15 минут, чтобы уточнить ваши пожелания</p>
             <form class="form1" action="formStart" method="post">
                 <label class="form-submit" for="">
-                    <input class="phone" type="tel" name="name" required placeholder="Номер телефона">
+                    <input class="phone" type="tel" id="inputField" name="phone" pattern="^[0-9-+\s()]{6,16}" name="name" required placeholder="Номер телефона">
                     <input class="submit" type="submit" value="Сделать заказ">
                 </label>
                 <label class="form-check">
