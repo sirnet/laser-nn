@@ -243,6 +243,15 @@
             </ul>
             <form class="form1" id="feedback-form" action="formStart" method="post">
                 <label class="form-submit" for="">
+                    <input class="service" type="text" list="service" name="my-service" id="my-service" placeholder="Выбрать услугу">
+                    <datalist id="service">
+                        <option value="Ноги">
+                        <option value="Руки">
+                        <option value="Лицо">
+                        <option value="Тело">
+                        <option value="Шея">
+                        <option value="Стопы">
+                      </datalist>
                     <input class="phone" type="tel" id="inputField" name="phone" pattern="^[0-9-+\s()]{6,16}" id="inputField" name="name" required placeholder="Номер телефона +7">
                     <input class="submit" type="submit" value="Сделать заказ">
                 </label>
